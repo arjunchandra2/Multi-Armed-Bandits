@@ -19,4 +19,4 @@ Global parameters:
 - `seed`: Seed for reproducibility. Default is 592. 
 
 Algorithm-specific parameters: 
-- `c`: Parameter for Epsilon-Greedy which uses $ \epsilon_t = min\left( 1, \frac{c}{t} \right)$. Default is 50. 
+- `c`: Parameter for Epsilon-Greedy which uses $\epsilon_t = \text{min} \left( 1, \frac{c}{t} \right)$. Default is 50. 
